@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Import fonts */
+
+body {
+  background: #1a1a1a;
+  height: 100%;
+  width: 100%;
+}
+
+.tituloBomdia{
+  color: #ffffffff;
+  font-size: 8vw;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 10px 10px 10px #0000FF;
+}
+
+.frasedoDia{
+  color: #ffffffff;
+  font-size: 0.5 rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif; Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-style: italic;
+  letter-spacing: 3px;
+  line-height: 28px;
+  text-transform: lowercase;
+}
+
+.tituloBoaNoite{
+  color: #ffffffff;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 10px 10px 10px #0000FF;
+}
+
+.fraseDaNoite{ 
+  color: #ffffffff;
+  font-size: 0.5 rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif; Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+
+/* 
+
+color para selecionar a cor,
+font-size selelcionar o tamanho da fonte,
+font-weight selecionar a grossura da cor,
+font-family selecionar a fonte,
+text-align selecionar o lado do texto,
+text-decoration selecionar decorações exemplo o sublinhado do texto,
+font-style selecionar o estilo da fonte,
+line-height selecionar a altura da distacias entre as linhas,
+letter-spacing selecionar a distancia entre as letras,
+text-aligh selecionar o alinhamento(left,center e right)do texto,
+text-transforme selecionar o transformação do texto(uppercase, lowercase, capitalize),
+text-shandow selecionar a sombra do texto(10px 10px 10px #ff0000),
+
+*/
+

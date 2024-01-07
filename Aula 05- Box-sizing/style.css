@@ -1,0 +1,21 @@
+*{
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+  }
+  
+  
+  .box-1{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background-color: #333333;
+    color: #ffffff;
+    border: 5px red solid;
+    padding: 20px 30px;
+    margin: 20px 30px;
+  }
+  
+  /* box-sizing: border-box serve para limitar a area da box, pois ao acrecentar border,padding e margin voce aumenta o tamnanho da box sem perceber a proporção, mas graças ao border-box vo~e não tem esse problema  */
+  
+  /* box-sizing: ::content-box voê não tem esse controle dos tanhamos adicionando border, padding e margin */
+  

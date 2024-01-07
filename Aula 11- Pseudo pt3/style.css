@@ -1,0 +1,42 @@
+/*
+:first-child - seleciona o primeiro filho;
+:first-of-type - seleciona o primeiro tipo de filho;
+:last-child - seleciona o último filho;
+:last-of-type - seleciona o último tipo de filho;
+:not() - estilizar os elementos, exceto o que está dentro do ();
+:nth-child(n) - seleciona o elemento baeado na posição. EX: nth-child(3);
+nth-last-child() - selecionar o elemento baseado na sua posição, contando de trás para frente.
+
+*/  
+
+ li:first-child {
+    color: red;
+  }
+  
+ li:last-child {
+    color: green;
+  }
+  
+  span:first-of-type {
+    color: red;
+  }
+  
+  /*
+  selecionar o primeiro filho de um tipo span.
+  */
+  
+  span:last-of-type {
+    color: green;
+  }
+  
+.container :not(h2) {
+    color: red;
+  }
+  
+  /*
+  não esqueça o espaço 
+  */ 
+  
+.container-two :nth-child(1) {
+    color: green;
+  }

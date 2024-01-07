@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    width: 700px;
+    height: 700px;
+    background-color: #f00;
+  }
+  
+  @media screen and (max-width: 600px) and (orientation: landscape) {
+    div {
+    width: 200px;
+    height: 200px;
+    background-color: #06f0;
+    }
+  }
+  
+  /*
+  screen: para monitores ou dispositivos com telas coloridas e resolução adeuqda;
+  orientation: landscape: para telas com orientação vertical;
+  portrait: para telas com orientação horizontal;
+  */

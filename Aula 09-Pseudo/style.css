@@ -1,0 +1,45 @@
+
+  
+  input{
+    border:2px solid #e0e050;
+  }
+  
+  input::placeholder{
+    color:#66e050;
+    content: Insira o E-mail;
+  }
+  
+  .Lorem{
+    color:#e05050;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .Lorem::first-letter{
+    color:#0fffe0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .lorem-2{
+    color:#e05050;
+    font-size: 16px;
+  }
+  
+  .Lorem-2::first-line{
+    color:#0fffe0;
+  }
+  
+  /*
+  
+  first-line estiliza a primeira linha do texto;
+  first-letter estiliza a primeira letra do texto;
+  ::placeholder estiliza oque está dentro do input;
+  ::before estiliza oque está antes do texto;
+  ::after estiliza oque está depois do texto.
+  
+  

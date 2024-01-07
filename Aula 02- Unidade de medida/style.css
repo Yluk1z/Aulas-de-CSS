@@ -1,0 +1,34 @@
+.avo{
+    font-size: 34px;
+    }
+    
+    .pai{
+      width: 50vw;
+      height: 50vw;
+      background:  #0000ff;
+    }
+    
+    .filho{
+      color: #ffffffff;
+      width: 50%;
+      height: 50%;
+      font-size: 2 rem;
+      background: #ff00f0;
+      
+    }
+    
+    /* 
+    
+    px pixels
+    % calcula o tamanho relativo ao elemento pai 
+    vw (view windth) 1vw é 1% da largura da janela do navegador 
+    vw (view windth) 1vw é 1% da altura  da janela do navegador 
+    rem é unidaderelativa ao tamanho da fonte raiz
+    
+    
+    O CSS trabalha com efeito cascata isso permite o tamanho declarado no avo terá efeito no pai que será espelhado no filho. 
+    
+    As medidas não tem as melhores e sim paraos melhores momentos.
+    */
+    
+    

@@ -1,0 +1,73 @@
+*{
+    font-size: 30px;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+  }
+  
+  .Box-1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .Box-2{
+    display: inline;
+    width: 75%;
+    height: 75%;
+    background-color: #356333;
+    color: #ffffff;
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .Box-3{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-color: #333ff3;
+    color: #ffffff;
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* 
+  Display
+  
+  -block
+  -inline
+  -inline-block
+  
+  -flex
+  -grid
+  
+  
+  -Block
+    Vem como padrão div,section,p,h1,ul,li,article...
+  
+    -Ocupa 100%  da blargura do elemento pai;
+    -Sempre ocupa toda a sua linha;
+    -Altura definida de acordo com o conteudo;
+    -Podemos definir height e width;
+    -Podemos definir valores de mardin.
+  
+  -Incline
+    Vem como padrão span,a,ib,input...
+  
+    -Elemeto em linha;
+    -não permite alterar height e width;
+    -Não podemos definir valores de margin top e bottom;
+    -Ganha comportamento de uma palavra.
+  
+  -Inline block
+  
+    -Elemnto em linha, porém com caracteristícas do display block;
+    -Altura e largura podem ser alterados.
+  

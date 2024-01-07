@@ -1,0 +1,20 @@
+* {
+    height: 200px;
+    width: 300px;
+  }
+  /* * isso sinifica que está sendo aplicado para toda a pagina*/
+  
+  #titulo {
+    color: red;
+  }
+  
+  /* # isso significa que está sendo aplicado para um id especifico */
+  
+  #sub-paragrafo {
+    color: blue;
+  }
+  /* . isso significa que está sendo aplicado para uma classe especifico */
+  
+  .botão, .paragrafo {
+    color: green;
+  }

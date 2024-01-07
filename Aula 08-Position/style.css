@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vh;
+    height: 200vh;
+  }
+  
+  .div-dad{
+    width: 350px;
+    height: 350px;
+    background-color: #f0f087;
+  }
+  
+  .div-son{
+    width: 150px;
+    height: 150px;
+    background-color: #f09087;
+  }
+  
+  .div-tanana{
+    width: 100px;
+    height: 100px;
+    background-color: #f01187;
+  }
+  
+  /* 
+  position:static(padrão) - Não aceitas valores de top,bottom,right eleft;
+  position:fixed - fixa o elemento na templateposition: sticky -fixa o elemento so´onde eu determinar;
+  position:relative - Posicão relativa a posição inicial dele.
+  position: absolute - posição absoluta(fixa) a algum elemento ou a pagina
+                        - SE não tiver pai / pai for static -> posicina referente a pagina          
+                        - Se o pai NÂO for static -> posiciona referente ao pai.  
+  */

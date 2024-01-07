@@ -1,0 +1,9 @@
+
+  
+  .cor{
+    color: #f00874 !important;
+    color: #000053;
+  }
+  
+  
+  /* esse comendo importat serve para quebrar o efeito cascata do CSS, pois na teoria a cor que deveria ser definida seria o azul, mas nesse caso será o rosa por conta do "important" */

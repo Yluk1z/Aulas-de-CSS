@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #5D5D7D;
+}
+
+.container {
+  width: 147vh;
+  height: 57vw;
+}
+
+.container-left {
+  display:inline-block;
+  width: 71%;
+}
+
+.container-right{
+  display: inline-block;
+  background-color: rgba(93,93,125,0.16);
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+}
+
+.text-container {
+  margin-top: 395px;
+  margin-left: 170px;
+
+}
+
+.img-main {
+  position: relative;
+  top: 25%;
+  right: 130px;
+}
+
+.text-main {
+  width: 368px;
+  height: 160px;
+  font-size: 70px;
+  font-style: normal;
+  line-height: 80px;
+  margin: 15px 0;
+}
+
+.paragraph-main {
+  width: 540px;
+  height: 144px;
+  font-size: 28px;
+  opacity: 0.6;
+  font-style: normal;
+  line-height: 48px
+}
+
+.button-main {
+  width: 269px;
+  height: 62px;
+  background-color: #9499EA;
+  box-shadow: (0px 10px 24px rgba(148, 153, 234, 0.10));
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.link-header {
+  width: 59px;
+  height: 41px;
+  font-size: 28px;
+  font-style: normal;
+  line-height: normal;
+  margin-right: 41px;
+  cursor: pointer;
+}
+
+.link-header:nth-child(2) {
+  opacity: 0.4;
+}
+
+header {
+  margin: 24px 0 0 90px
+}
+
+@media screen and ( max-width: 900px) {
+  .text-container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-right {
+    margin-top:20%;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 240px;
+  }
+
+  .img-main {
+    position: static;
+    max-width: 90%;
+  }
+
+  header {
+    display: none;
+  }
+
+  .text-main {
+    width: 232px;
+    line-height: 52px;
+    font-size: 36px;
+    line-height: 52px;
+    margin: 80px 0 35px 365px;
+    text-align: center;
+  }
+
+  .paragraph-main {
+    margin: 41px 340px;
+    width: 296px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .button-main {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .container-text {
+  display: none;
+  }
+
+  textcontainer {
+  
+  }
+
+
+}
+  
+
+
+
+

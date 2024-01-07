@@ -1,0 +1,65 @@
+/* 
+:active - quando o elemento está ativo, ou seja, está sendo pressionado;
+:visited - seleciona o link que foi visitado;
+:houver - quando o mause passa por cima do elemento;
+:checked - quando em rádio / checkbox / select;
+:disabled - elemento desabilitado / button / input;
+:enabled - elemento está habilitado;
+:focus - quando o elemento recebe o foco, oque pode ocorrer quando o usuário selecionar o elemento;
+:read-only - seleciona input ou textarea que são apenas leitura;
+:empty - elemento que não tem filho;
+
+
+*/   
+
+h1{
+    color: red;
+  }
+  
+  h1:active {
+    color: green;
+  }
+  
+  .Excluido {
+    color: red;
+  }
+  
+  .Excluido:hover {
+    color: green;
+  }
+  
+  input:checked {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .desativado:disabled {
+    width: 20px;
+    height: 20px;
+  }
+  
+  button:focus{
+    border: 5px solid green; 
+    outline: none;
+  }
+  /*
+  outline foi utilizado, pois o google tem uma configuração automatica de borda quando tiver ativado.
+  
+  */
+  
+  .so-leitura:read-only {
+    border: 5px solid red;
+  }
+  
+  p{
+    color: red;
+  }
+  
+  p:empty{
+    color: green;
+  }
+  
+  /* 
+  só irá funcionar caso o paragrafo fique sem conteúdo 
+  */  
+  
